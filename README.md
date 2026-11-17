@@ -14,7 +14,7 @@ Each project runs end to end from a public or clearly labeled synthetic dataset:
 
 | Project | Industry | Business question | Methods | Headline result |
 |---|---|---|---|---|
-| [EPC Project Analytics Dashboards](https://github.com/SnehaAjmira/epc-project-analytics-dashboards) ([live](https://snehaajmira.github.io/epc-project-analytics-dashboards/)) | EPC / Capital projects | How is a fab construction project tracking on cost, schedule, engineering, suppliers, and quality? | SQL, earned value, Pareto, ABC, RFMT, burndown forecast, Plotly | 5 interactive dashboards: CPI 0.96, SPI 0.93, supplier RFMT segments, punch forecast |
+| [EPC Project Analytics Dashboards](https://github.com/SnehaAjmira/epc-project-analytics-dashboards) ([live](https://snehaajmira.github.io/epc-project-analytics-dashboards/)) | EPC / Capital projects | How is a fab construction project tracking on cost, schedule, engineering, suppliers, and quality? | SQL, earned value, Pareto, ABC, RFMT, Monte Carlo, survival analysis, ML, clustering | 5 interactive dashboards plus an [8-level analysis report](https://github.com/SnehaAjmira/epc-project-analytics-dashboards/blob/main/REPORT.md) from profiling to prescriptive |
 | [Biopharma Vaccine Market Analysis](https://github.com/SnehaAjmira/biopharma-vaccine-market-analysis) | Biopharma | Who supplied the market, and how concentrated was supply? | DuckDB SQL, window functions, HHI | Two mRNA makers supplied 86% of 2.6B doses; 40 of 41 markets highly concentrated |
 | [Healthcare Cost Driver Analysis](https://github.com/SnehaAjmira/healthcare-insurance-cost-analysis) | Healthcare | What drives medical charges? | SQL segmentation, OLS regression, interaction effects | Smokers are 20.5% of members and 49.5% of cost; model R-squared 0.864 |
 | [Retail Profitability Analysis](https://github.com/SnehaAjmira/retail-sales-profitability-analysis) | Retail | Where does the business make and lose money? | SQL profitability, Pareto, scenario analysis | Two loss-making lines cost $132.6K; fixing them lifts profit 8.7% |
@@ -35,7 +35,7 @@ Each project runs end to end from a public or clearly labeled synthetic dataset:
 | Area | Tools and methods |
 |---|---|
 | Data analysis | SQL (DuckDB, SQL Server / T-SQL), Python (pandas, statsmodels, scikit-learn) |
-| Statistics | Linear and logistic regression, segmentation, Pareto and concentration analysis, holdout validation |
+| Statistics and ML | Hypothesis testing, linear and logistic regression, gradient boosting, survival analysis, Monte Carlo simulation, clustering, anomaly detection |
 | Visualization and BI | Power BI, DAX, Tableau, matplotlib |
 | Data quality | Profiling, reconciliation, validation rules, ALCOA+ data integrity |
 | Systems | LIMS, QMS, ERP (SAP), REST APIs, webhooks, requirements and data mapping |
