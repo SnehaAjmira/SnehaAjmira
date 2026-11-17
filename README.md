@@ -1,65 +1,52 @@
-# Hi, I'm Sneha Ajmira 👋
+# Sneha Ajmira
 
-### Product Owner & Business Systems Analyst | Houston, TX
+**Data Analyst | Business Systems Analyst**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/contactsnehaajmira)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:saisnehaajmira05@gmail.com)
+I turn operational and regulated data into decisions. My background spans biopharma and laboratory systems (LIMS, QMS, ERP), where data accuracy is a compliance requirement, not a preference. I work across the full path from raw data to a recommendation: SQL modeling, data quality checks, statistical analysis, and clear reporting for business stakeholders.
 
----
-
-## 👩‍💼 About Me
-
-I'm a **Product Owner & Business Systems Analyst** with 4+ years of experience implementing and optimizing **LIMS, QMS, and ERP systems** in regulated environments. I specialize in bridging the gap between business stakeholders and technical teams to deliver scalable, compliant solutions.
-
-- 🔭 Currently working at **Eagle Analytical Services** as a Product Owner / BSA
-- 🌱 Experienced in **SDLC, Agile/Scrum**, and managing full product backlogs
-- 💡 Passionate about **data-driven decision-making**, KPI dashboards, and process automation
-- 🎓 M.S. Information Technology & Management — University of Texas at Dallas
-- 📜 Certified: **PSPO I (Professional Scrum Product Owner)** | AI for Everyone
+[LinkedIn](https://linkedin.com/in/contactsnehaajmira) · [Email](mailto:saisnehaajmira05@gmail.com)
 
 ---
 
-## 🛠️ Tech Stack & Skills
+## 1. Data Analysis Projects
 
-**Product & Delivery**
-![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat&logo=jira&logoColor=white)
-![Confluence](https://img.shields.io/badge/Confluence-172B4D?style=flat&logo=confluence&logoColor=white)
-![Agile](https://img.shields.io/badge/Agile%2FScrum-009FDA?style=flat)
+Each project runs end to end from a public dataset: SQL pipeline, data quality report, analysis, charts, and documented findings. All results are reproducible with one command.
 
-**Data & Analytics**
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=mysql&logoColor=white)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white)
+| Project | Industry | Business question | Methods | Headline result |
+|---|---|---|---|---|
+| [Biopharma Vaccine Market Analysis](https://github.com/SnehaAjmira/biopharma-vaccine-market-analysis) | Biopharma | Who supplied the market, and how concentrated was supply? | DuckDB SQL, window functions, HHI | Two mRNA makers supplied 86% of 2.6B doses; 40 of 41 markets highly concentrated |
+| [Healthcare Cost Driver Analysis](https://github.com/SnehaAjmira/healthcare-insurance-cost-analysis) | Healthcare | What drives medical charges? | SQL segmentation, OLS regression, interaction effects | Smokers are 20.5% of members and 49.5% of cost; model R-squared 0.864 |
+| [Retail Profitability Analysis](https://github.com/SnehaAjmira/retail-sales-profitability-analysis) | Retail | Where does the business make and lose money? | SQL profitability, Pareto, scenario analysis | Two loss-making lines cost $132.6K; fixing them lifts profit 8.7% |
+| [HR Attrition Analysis](https://github.com/SnehaAjmira/hr-employee-attrition-analysis) | People Analytics | Who leaves, why, and at what cost? | SQL, logistic regression, holdout validation | Overtime raises odds of leaving 4.8x; model AUC 0.81 |
+| [Lab Operations KPI Model](https://github.com/SnehaAjmira/powerbi-kpi-dashboard) | Laboratory / QA | How are release and quality KPIs defined and measured? | T-SQL, DAX, Power BI data model | 13 DAX measures with KPI definitions and targets |
 
-**Systems & Integration**
-![REST API](https://img.shields.io/badge/REST%20APIs-FF6C37?style=flat&logo=postman&logoColor=white)
-![SAP](https://img.shields.io/badge/SAP%20ERP-0FAAFF?style=flat&logo=sap&logoColor=white)
-![Webhooks](https://img.shields.io/badge/Webhooks-6DB33F?style=flat)
+## 2. Systems Analysis Projects
 
-**Compliance**
-![CSA](https://img.shields.io/badge/CSA%20%7C%20GAMP%205-blueviolet?style=flat)
-![FDA](https://img.shields.io/badge/FDA%2021%20CFR%20Part%2011-red?style=flat)
-![ISO](https://img.shields.io/badge/ISO%2027001-blue?style=flat)
-
----
-
-## 📂 Featured Projects
-
-| Project | Description | Tech |
+| Project | Focus | Contents |
 |---|---|---|
-| [LIMS-SAP Integration Pipeline](https://github.com/SnehaAjmira/lims-sap-integration) | Event-driven LIMS↔SAP data sync via REST APIs & webhooks | Python, REST API, SAP ERP |
-| [Power BI KPI Dashboard](https://github.com/SnehaAjmira/powerbi-kpi-dashboard) | Executive KPI dashboard with DAX measures replacing manual reporting | Power BI, DAX, SQL |
-| [ERP eCommerce API Integration](https://github.com/SnehaAjmira/erp-ecommerce-api) | ERP-to-eCommerce order/inventory sync with 95% data accuracy | Python, REST API, SQL |
-| [Product Backlog & Agile Toolkit](https://github.com/SnehaAjmira/agile-product-toolkit) | Templates & scripts for sprint planning, BRDs, FRDs, and backlog grooming | Markdown, Python, Jira |
-| [Compliance Validation Framework](https://github.com/SnehaAjmira/compliance-validation-framework) | FDA 21 CFR Part 11 & GAMP 5 validation protocol templates | Python, Markdown |
+| [LIMS-to-SAP Integration Service](https://github.com/SnehaAjmira/lims-sap-integration) | Integration, regulated data | FastAPI webhook service, LIMS-to-SAP QM mapping, hash-chained audit log, 7 tests |
+| [ERP-to-eCommerce Validation Layer](https://github.com/SnehaAjmira/erp-ecommerce-api) | Data validation, integration | pydantic validation rules, field mapping, quarantine and reconciliation, unit tests |
+| [Compliance Validation Framework](https://github.com/SnehaAjmira/compliance-validation-framework) | 21 CFR Part 11, CSV/CSA | Audit trail checker, requirements traceability matrix template, unit tests |
+| [Agile Product Toolkit](https://github.com/SnehaAjmira/agile-product-toolkit) | Product ownership | BRD and user story templates, WSJF prioritization script, unit tests |
 
----
+## 3. Skills
 
-## 📊 GitHub Stats
+| Area | Tools and methods |
+|---|---|
+| Data analysis | SQL (DuckDB, SQL Server / T-SQL), Python (pandas, statsmodels, scikit-learn) |
+| Statistics | Linear and logistic regression, segmentation, Pareto and concentration analysis, holdout validation |
+| Visualization and BI | Power BI, DAX, Tableau, matplotlib |
+| Data quality | Profiling, reconciliation, validation rules, ALCOA+ data integrity |
+| Systems | LIMS, QMS, ERP (SAP), REST APIs, webhooks, requirements and data mapping |
+| Regulated environments | FDA 21 CFR Part 11, GAMP 5, CSA, cGMP |
+| Delivery | Agile/Scrum, backlog management, UAT, full SDLC |
 
-![Sneha's GitHub Stats](https://github-readme-stats.vercel.app/api?username=SnehaAjmira&show_icons=true&theme=default&hide_border=true)
+## 4. Background
 
----
-
-⭐️ From [SnehaAjmira](https://github.com/SnehaAjmira)
+| | |
+|---|---|
+| **Experience** | Business Systems Analyst and Product Owner, Eagle Analytical Services: owned a cloud LIMS/QMS platform end to end, including requirements, configuration, validation, and reporting |
+| **Education** | Doctor of Business Administration, AI specialization, Belhaven University (in progress) |
+| | M.S. Information Technology and Management, The University of Texas at Dallas |
+| | M.Sc. Nutrition and Dietetics; B.Sc. Food and Nutrition, Chemistry, Botany |
+| **Certification** | Professional Scrum Product Owner I (PSPO I) |
