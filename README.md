@@ -43,7 +43,7 @@ Each project runs end to end from a public dataset: SQL pipeline, data quality r
 
 ## 4. Background
 
-| | |
+| Category | Detail |
 |---|---|
 | **Experience** | Business Systems Analyst and Product Owner, Eagle Analytical Services: owned a cloud LIMS/QMS platform end to end, including requirements, configuration, validation, and reporting |
 | **Education** | Doctor of Business Administration, AI specialization, Belhaven University (in progress) |
